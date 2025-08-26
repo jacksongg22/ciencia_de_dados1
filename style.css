@@ -19,7 +19,42 @@ height: 100vh;
     
  }
  header {
-    background-color: var(--secundary-color);
-    padding: 10px;
-    text-align: center;
+    background-color: var(--primary-color);
+      align-items: center;
+    padding: 1px;
+ }
+
+ h1{
+   font-size: 2rem;
+   color: var(--bg-color);
+   font-weight: 700;
+ }
+ nav{
+   display:flex;
+   justify-content:center;
+font-weight: 400;
+ 
+ }
+ nav a {
+   text-decoration: none;
+   color: var(--bg-color);
+   margin: 0 2rem 1rem 0rem;
+   font-size: 1.2rem;
+   
+   
+ }
+ nav a:hover{
+   text-decoration: underline;
+   transform: scale(0,90s);
+   transition: scale(0.1s);
+ }
+ .graficos-container_text{
+   font-size: 1.3rem;
+   text-aling:center;
+   padding: 2rem;
+   border: var(--secundary-color) solid 2px;
+
+ }
+ #graficos-container {
+   margin: 5rem;
  }
